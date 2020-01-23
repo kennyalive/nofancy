@@ -151,6 +151,11 @@ body {
 	height: auto;
 }
 
+.post-content img[src$='#center'] {
+    display: block;
+    margin: 0.7rem auto;
+}
+
 .post a {
 	color:#c05b4d;
 	text-decoration: none;
