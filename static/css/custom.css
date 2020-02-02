@@ -17,6 +17,7 @@ body {
 	text-align: left;
 	color: #484848;
 	margin-bottom: .5em;
+	background-color: rgb(249,249,240);
 }
 
 .header ul li {
@@ -30,9 +31,15 @@ body {
 }
 
 .header .site-title {
-	font-weight: bold;
+	margin-top: 1em;
+	padding-bottom: 1em;
+}
+
+.header .site-title a {
+	font-weight: 300;
+	font-size: 18px;
+	text-decoration: none;
 	color: #484848;
-	font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .pull-right {
