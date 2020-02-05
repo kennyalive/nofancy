@@ -192,6 +192,10 @@ body {
 	margin-bottom: 0;
 }
 
+.formula {
+	overflow: auto;
+}
+
 @media screen and (max-width:767px){
 	.desktop {
 		display: none;
