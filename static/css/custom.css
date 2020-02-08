@@ -2,11 +2,13 @@ html {
 	min-height:100%;
 	width:100%;
 	position:relative;
+	font-family: sans-serif;
 }
 
 body {
 	background-color: rgb(249,249,249);
 	color: #484848;
+	margin: 0;
 }
 
 .header {
