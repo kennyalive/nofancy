@@ -3,7 +3,6 @@
 
 <div class="wrapper">
 	<div class="post-content">
-	{{ .Content }}
 	  <ul class="posts">
 		{{ $baseurl := .Site.BaseURL }}
 		{{ range $name, $page := .Site.RegularPages }}
@@ -21,6 +20,7 @@
 		{{ end }}
 		{{ end }}
 	  </ul>
+	  {{ .Content }}
 	</div>
 </div>
 
