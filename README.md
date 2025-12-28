@@ -29,8 +29,6 @@ Some ideas behind this:
 
 3. Clean, high readability and mobile-friendly.
 
-4. Full stack support (sorting contents by categories, tags, series; Google Analytics; SNS & email links...)
-
 ### Syntax highlight
 Use [GitHub flavoured markdown](https://help.github.com/articles/github-flavored-markdown/#syntax-highlighting) to write your code snippets in posts, it will auto highlighted after running `hugo`.
 
@@ -59,7 +57,6 @@ copyright = "Copyright (c) 2008 - 2014, Steve Francia; all rights reserved."
     github = "spf13"
     linkedin = "YOUR LINKEDIN ID"
     facebook = "YOUR FB ID"
-    gaID = "YOUR Google Analytics Tracking ID"
     twitter = "YOUR TWITTER ID"
 ```
 
